@@ -19,6 +19,6 @@ export default defineConfig({
       },
     },
   },
-  // GitHub Pages deployment base
-  base: process.env.NODE_ENV === 'production' ? '/landing-page-template/' : '/',
+  // Vercel deployment base (root path)
+  base: '/',
 });
